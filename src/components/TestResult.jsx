@@ -36,11 +36,11 @@ function TestResult() {
           </p>
           <p className="test-result__scores">Ваши баллы: {scores}</p>
           <p className="test-result__mark">Ваша оценка: {mark}</p>
-          <button onClick={() => router(-3)} className="test-result__btn">
+          <button onClick={() => router(-2)} className="test-result__btn">
             Начать заново
           </button>
           <button
-            onClick={() => router(-4)}
+            onClick={() => router(-3)}
             className="test-result__btn test-result__btn-exit"
           >
             Выход

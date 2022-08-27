@@ -10,10 +10,7 @@ function Header() {
       <div className="conteiner">
         <div className="header__inner">
           <div className="header__logo">
-            <Link
-              to="/EducationalPortal-React.github.io"
-              className="header__logo-link"
-            >
+            <Link to="/" className="header__logo-link">
               Educational PORTAL
             </Link>
             <img src={logo} alt="" className="header__logo-img" />
