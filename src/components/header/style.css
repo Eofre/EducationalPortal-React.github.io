@@ -1,7 +1,7 @@
 .header {
   padding: 7px 0px;
   background-color: #222222;
-  opacity: 85px;
+  opacity: 85%;
   position: sticky;
   top: 0;
 }
@@ -17,6 +17,11 @@
   align-items: center;
   font-size: 18px;
   font-weight: 400;
+}
+
+.header__logo:hover {
+  color: #d503ff;
+  text-shadow: 0px 0px 45px #d503ff;
 }
 
 .header__logo-img {

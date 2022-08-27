@@ -14,6 +14,7 @@ function TestGame() {
   const [progress, setProgress] = useState(1);
 
   const [currectAnswers, setCurrectAnswers] = useState(0);
+  const [answersId, setAnswersId] = useState([]);
   const question = test.questions[step];
   function chooseAnAnswer(index) {
     if (question.currectAnswer == index) {
@@ -21,10 +22,14 @@ function TestGame() {
       setProgress(progress + 1);
       console.log("верно");
       setCurrectAnswers(currectAnswers + 1);
+      answersId.push(index);
+      console.log(answersId);
     } else {
       setStep(step + 1);
       setProgress(progress + 1);
       console.log("не верно");
+      answersId.push(index);
+      console.log(answersId);
     }
   }
   const numberQuestions = test.questions.length;
@@ -65,6 +70,7 @@ function TestGame() {
               currectAnswers,
               numberQuestions,
               test,
+              answersId,
             },
           })
         )}

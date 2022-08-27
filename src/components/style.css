@@ -158,32 +158,32 @@
   /* background-color: #d503ff; */
   background-color: #d503ff;
   transition: all 0.3s ease;
+  box-shadow: 0px 0px 12px #d503ff;
 }
 
 .test-result__btn:hover {
-  box-shadow: 0px 0px 11px rgb(183, 183, 183);
-  margin-bottom: 4px;
-  box-shadow: 0px 0px 12px #d503ff;
+  /* outline: rgb(42, 42, 42) 3px solid;
+  outline-offset: -3px; */
+  font-size: 23px;
 }
 
 .test-result__btn-exit {
   border-radius: 0px 0px 15px 15px;
   margin-top: 0px;
-  background: #a52a2a;
+  background: #da1010;
+  box-shadow: 0px 0px 6px #da1010;
 }
 
 .test-result__btn-show {
   margin-top: 0px;
   background: #222222;
+  box-shadow: 0px 0px 6px #222222;
 }
 
 .test-result__btn-show:hover {
-  margin: 4px 0px;
 }
 
 .test-result__btn-exit:hover {
-  margin-top: 3px;
-  box-shadow: 0px 0px 12px #c60024;
 }
 
 .test-result__like {
@@ -229,6 +229,7 @@
   transition: all 0.3s ease;
   text-align: center;
   width: 100%;
+  /* #ff0f0f */
 }
 
 .test-result__answer-question {
