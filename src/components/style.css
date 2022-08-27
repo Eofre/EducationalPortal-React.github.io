@@ -224,7 +224,6 @@
 
 .test-result__answer-value {
   padding: 10px 20px;
-  cursor: pointer;
   background-color: #121212;
   border-radius: 7px;
   transition: all 0.3s ease;
@@ -314,6 +313,10 @@
   .test-result__inner {
     max-width: 500px;
   }
+
+  .test-result__answers {
+    max-width: 500px;
+  }
 }
 @media screen and (max-width: 576px) {
   .test {
@@ -381,5 +384,11 @@
 
   .test-result__img {
     max-width: 90px;
+  }
+
+  .test-result__answers {
+    max-width: 290px;
+    font-size: 12px;
+    /* padding: 0px; */
   }
 }
