@@ -64,8 +64,7 @@ function TestGame() {
             state: {
               currectAnswers,
               numberQuestions,
-              likes,
-              testId,
+              test,
             },
           })
         )}
