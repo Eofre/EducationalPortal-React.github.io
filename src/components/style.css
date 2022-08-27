@@ -297,12 +297,74 @@
   text-shadow: 0px 0px 30px #d503ff;
 } */
 
+/* ================article-card======================== */
+
+.article-card {
+  padding-bottom: 10px;
+  border-radius: 15px;
+  max-width: 300px;
+  max-height: 900px;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.article-card-img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  max-height: 190px;
+}
+
+.article-card-title {
+  padding: 10px 5px;
+}
+
+.article-card:hover {
+  box-shadow: 0px 0px 15px #d503ff;
+}
+
+.article__paragraphs-text {
+  max-width: 900px;
+}
+
+/* =======================article================== */
+
+.article__text {
+  padding: 20px 0px;
+}
+
+.article__img {
+  width: 100%;
+  /* max-height: 350px; */
+  /* border-radius: 110px;
+  padding: 50px 50px; */
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.article__paragraphs {
+  padding: 10px 0px;
+}
+
+.article__paragraphs-text {
+  padding: 5px 0px;
+}
+
 /* =================Адаптив================ */
 
 @media screen and (max-width: 1200px) {
 }
 @media screen and (max-width: 992px) {
   .test-game__inner {
+    max-width: 700px;
+  }
+  .article__paragraphs-text {
     max-width: 700px;
   }
 }
@@ -318,8 +380,15 @@
   .test-result__answers {
     max-width: 500px;
   }
+  .article__paragraphs-text {
+    max-width: 600px;
+  }
 }
 @media screen and (max-width: 576px) {
+  .article__paragraphs-text {
+    max-width: 200px;
+    font-size: 12px;
+  }
   .test {
     max-width: 250px;
   }
