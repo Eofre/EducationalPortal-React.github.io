@@ -26,7 +26,7 @@ function Home() {
         {
           question: "В каком слове пишется буква О?",
           answers: ["волч_нок", "зач_тка", "упрощ_нный", "размеж_вка"],
-          currectAnswer: 2,
+          currectAnswer: 0,
         },
         {
           question: "Что обозначают междометия?",
