@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EducationalPortal-React.github.io/static/css/main.349161bc.css",
-    "main.js": "/EducationalPortal-React.github.io/static/js/main.afe8599d.js",
+    "main.js": "/EducationalPortal-React.github.io/static/js/main.e3cc5b8a.js",
     "static/js/787.0c3f432a.chunk.js": "/EducationalPortal-React.github.io/static/js/787.0c3f432a.chunk.js",
     "static/media/test1.jpg": "/EducationalPortal-React.github.io/static/media/test1.b4872d60c5cf670661f5.jpg",
     "static/media/test3.jpg": "/EducationalPortal-React.github.io/static/media/test3.4e193afea231043bcb22.jpg",
@@ -12,11 +12,11 @@
     "static/media/like.svg": "/EducationalPortal-React.github.io/static/media/like.f25780ca804b686c0707c4ef4b001435.svg",
     "static/media/right-arrow.svg": "/EducationalPortal-React.github.io/static/media/right-arrow.a0fecff6fb780e8a7d9bdd503f237cc1.svg",
     "main.349161bc.css.map": "/EducationalPortal-React.github.io/static/css/main.349161bc.css.map",
-    "main.afe8599d.js.map": "/EducationalPortal-React.github.io/static/js/main.afe8599d.js.map",
+    "main.e3cc5b8a.js.map": "/EducationalPortal-React.github.io/static/js/main.e3cc5b8a.js.map",
     "787.0c3f432a.chunk.js.map": "/EducationalPortal-React.github.io/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.349161bc.css",
-    "static/js/main.afe8599d.js"
+    "static/js/main.e3cc5b8a.js"
   ]
 }
