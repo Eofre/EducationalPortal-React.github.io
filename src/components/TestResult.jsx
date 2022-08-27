@@ -4,13 +4,14 @@ import img from "./img/result.png";
 import like from "./img/like.svg";
 
 function TestResult() {
-  const params = useParams();
-  const testId = params.id;
+  // const params = useParams();
+  // const testId = params.id;
   const router = useNavigate();
   const location = useLocation();
-  console.log(location);
+
   const currectAnswers = location.state.currectAnswers;
   const numberQuestions = location.state.numberQuestions;
+  const testId = location.state.testId;
   let likes = location.state.likes;
   console.log(likes);
   function putLikes() {
@@ -40,7 +41,7 @@ function TestResult() {
             Начать заново
           </button>
           <button
-            onClick={() => router(-3)}
+            onClick={() => router(`/`)}
             className="test-result__btn test-result__btn-exit"
           >
             Выход

@@ -9,6 +9,7 @@ function TestGame() {
   let location = useLocation();
   let test = location.state;
   let likes = test.likes;
+  let testId = test.id;
   const [step, setStep] = useState(0);
   const [progress, setProgress] = useState(1);
 
@@ -59,11 +60,12 @@ function TestGame() {
             }/${numberQuestions}`}</p>
           </div>
         ) : (
-          router(`/test/game/result${test.id}`, {
+          router(`/test/game/result${testId}`, {
             state: {
               currectAnswers,
               numberQuestions,
               likes,
+              testId,
             },
           })
         )}
