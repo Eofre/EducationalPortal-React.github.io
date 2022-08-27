@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/EducationalPortal-React.github.io/static/css/main.10b81534.css",
-    "main.js": "/EducationalPortal-React.github.io/static/js/main.b47c542d.js",
+    "main.css": "/EducationalPortal-React.github.io/static/css/main.cb2ef83c.css",
+    "main.js": "/EducationalPortal-React.github.io/static/js/main.d2b4bf54.js",
     "static/js/787.0c3f432a.chunk.js": "/EducationalPortal-React.github.io/static/js/787.0c3f432a.chunk.js",
     "static/media/test1.jpg": "/EducationalPortal-React.github.io/static/media/test1.b4872d60c5cf670661f5.jpg",
+    "static/media/article1.jpg": "/EducationalPortal-React.github.io/static/media/article1.c64af48be0c386341674.jpg",
     "static/media/test3.jpg": "/EducationalPortal-React.github.io/static/media/test3.4e193afea231043bcb22.jpg",
-    "static/media/test2.jpg": "/EducationalPortal-React.github.io/static/media/test2.b2c7615b8fe153e046c0.jpg",
     "static/media/result.png": "/EducationalPortal-React.github.io/static/media/result.6d85aa6c0bb109bde55e.png",
     "static/media/diploma.png": "/EducationalPortal-React.github.io/static/media/diploma.9483b9813eb77eab59bd.png",
     "index.html": "/EducationalPortal-React.github.io/index.html",
     "static/media/like.svg": "/EducationalPortal-React.github.io/static/media/like.f25780ca804b686c0707c4ef4b001435.svg",
     "static/media/right-arrow.svg": "/EducationalPortal-React.github.io/static/media/right-arrow.a0fecff6fb780e8a7d9bdd503f237cc1.svg",
-    "main.10b81534.css.map": "/EducationalPortal-React.github.io/static/css/main.10b81534.css.map",
-    "main.b47c542d.js.map": "/EducationalPortal-React.github.io/static/js/main.b47c542d.js.map",
+    "main.cb2ef83c.css.map": "/EducationalPortal-React.github.io/static/css/main.cb2ef83c.css.map",
+    "main.d2b4bf54.js.map": "/EducationalPortal-React.github.io/static/js/main.d2b4bf54.js.map",
     "787.0c3f432a.chunk.js.map": "/EducationalPortal-React.github.io/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10b81534.css",
-    "static/js/main.b47c542d.js"
+    "static/css/main.cb2ef83c.css",
+    "static/js/main.d2b4bf54.js"
   ]
 }
