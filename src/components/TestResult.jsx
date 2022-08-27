@@ -24,8 +24,8 @@ function TestResult() {
       : scores >= 75
       ? `4 (хорошо)`
       : scores >= 60
-      ? `3 (удовлетворитель)`
-      : `2 (неудовлетворитель)`;
+      ? `3 (удовлетворительно)`
+      : `2 (неудовлетворительно)`;
   return (
     <section className="test-result">
       <div className="container">
