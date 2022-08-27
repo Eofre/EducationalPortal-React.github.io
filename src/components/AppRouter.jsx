@@ -9,7 +9,11 @@ import TestResult from "./TestResult";
 function AppRouter() {
   return (
     <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route
+        exact
+        path="/EducationalPortal-React.github.io"
+        element={<Home />}
+      />
       <Route exact path="/test/home:id" element={<TestHome />} />
       <Route exact path="/test/game:id" element={<TestGame />} />
       <Route exact path="/test/game/result:id" element={<TestResult />} />
