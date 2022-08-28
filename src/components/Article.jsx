@@ -9,7 +9,7 @@ function Article() {
       <div className="conteiner">
         <div className="article__inner">
           <h2 className="article__title">{article.title}</h2>
-          <img src={article.img} alt="" className="article__img" />
+          {/* <img src={article.img} alt="" className="article__img" /> */}
           <div className="article__text">
             {article.paragraphs.map((item) => (
               <div key={item.text} className="article__paragraphs">

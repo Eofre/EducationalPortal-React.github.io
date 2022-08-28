@@ -567,7 +567,7 @@ function Home() {
         <div className="home__inner">
           <div className="home__test">
             <div className="home__title">
-              <h2 className="home__title-text">Лучшие тесты</h2>
+              <h2 className="home__title-text">Актуальные тесты</h2>
               <img src={title1} alt="" className="home__title-img" />
             </div>
             <div className="home__tests">
