@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/EducationalPortal-React.github.io/static/css/main.213ea0f9.css",
-    "main.js": "/EducationalPortal-React.github.io/static/js/main.6501d588.js",
+    "main.css": "/EducationalPortal-React.github.io/static/css/main.62250141.css",
+    "main.js": "/EducationalPortal-React.github.io/static/js/main.3434c4df.js",
     "static/js/787.0c3f432a.chunk.js": "/EducationalPortal-React.github.io/static/js/787.0c3f432a.chunk.js",
     "static/media/test1.jpg": "/EducationalPortal-React.github.io/static/media/test1.b4872d60c5cf670661f5.jpg",
+    "static/media/article3.jpg": "/EducationalPortal-React.github.io/static/media/article3.fc117dba344211091403.jpg",
     "static/media/article1.jpg": "/EducationalPortal-React.github.io/static/media/article1.c64af48be0c386341674.jpg",
     "static/media/test3.jpg": "/EducationalPortal-React.github.io/static/media/test3.4e193afea231043bcb22.jpg",
     "static/media/test2.jpg": "/EducationalPortal-React.github.io/static/media/test2.277e151caf2493302859.jpg",
+    "static/media/article2.jpg": "/EducationalPortal-React.github.io/static/media/article2.bd08d79870653a67dd11.jpg",
     "static/media/result.png": "/EducationalPortal-React.github.io/static/media/result.6d85aa6c0bb109bde55e.png",
     "static/media/title2.png": "/EducationalPortal-React.github.io/static/media/title2.bfe506fbc038b0a8466c.png",
     "static/media/book.png": "/EducationalPortal-React.github.io/static/media/book.de95b09168e1e8901e45.png",
@@ -14,12 +16,12 @@
     "index.html": "/EducationalPortal-React.github.io/index.html",
     "static/media/like.svg": "/EducationalPortal-React.github.io/static/media/like.a4dac25f2610f714939b4875feb35799.svg",
     "static/media/right-arrow.svg": "/EducationalPortal-React.github.io/static/media/right-arrow.a0fecff6fb780e8a7d9bdd503f237cc1.svg",
-    "main.213ea0f9.css.map": "/EducationalPortal-React.github.io/static/css/main.213ea0f9.css.map",
-    "main.6501d588.js.map": "/EducationalPortal-React.github.io/static/js/main.6501d588.js.map",
+    "main.62250141.css.map": "/EducationalPortal-React.github.io/static/css/main.62250141.css.map",
+    "main.3434c4df.js.map": "/EducationalPortal-React.github.io/static/js/main.3434c4df.js.map",
     "787.0c3f432a.chunk.js.map": "/EducationalPortal-React.github.io/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.213ea0f9.css",
-    "static/js/main.6501d588.js"
+    "static/css/main.62250141.css",
+    "static/js/main.3434c4df.js"
   ]
 }
