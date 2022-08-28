@@ -6,7 +6,7 @@ function Navigation() {
     <nav className="navigation">
       <ul className="navigation__list">
         <li className="navigation__item">
-          <Link to="#" className="navigation__link">
+          <Link to="/newvalue" className="navigation__link">
             Создать
           </Link>
           <Link to="#" className="navigation__link">

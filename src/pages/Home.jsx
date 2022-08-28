@@ -7,6 +7,7 @@ import title2 from "./img/title2.png";
 import TestCard from "../components/TestCard";
 import test1 from "./img/test3.jpg";
 import test2 from "./img/test2.jpg";
+import test3 from "./img/test1.jpg";
 import article1 from "./img/article1.jpg";
 import article2 from "./img/article2.jpg";
 import article3 from "./img/article3.jpg";
@@ -183,11 +184,9 @@ function Home() {
     },
     {
       id: 2,
-      title:
-        "Сложный тест на знание русского языка, который по силам только тем, кто учился на одни пятерки",
-      description:
-        "Как давно вы окончили школу? Даже если это было давно, у вас есть все шансы ответить правильно хотя бы на 80% вопросов этого теста. При условии, что вы прилежно учились.",
-      img: test1,
+      title: "Тест на логику для детей",
+      description: "Тест покажет уровень логического развития вашего ребёнка",
+      img: test3,
       likes: 64,
       questions: [
         {

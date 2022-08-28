@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { useSpring, animated, useTransition } from "react-spring";
 import Home from "../pages/Home";
-import NewTest from "../pages/NewTest";
+import NewValue from "../pages/NewValue";
 import Article from "./Article";
 import TestGame from "./TestGame";
 import TestHome from "./TestHome";
@@ -16,7 +16,7 @@ function AppRouter() {
       <Route exact path="/test/game:id" element={<TestGame />} />
       <Route exact path="/test/game/result:id" element={<TestResult />} />
       <Route exact path="/article:id" element={<Article />} />
-      <Route exact path="/newtest" element={<NewTest />} />
+      <Route exact path="/newvalue" element={<NewValue />} />
     </Routes>
   );
 

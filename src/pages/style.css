@@ -61,6 +61,23 @@
 .new-test__editor-questions {
 }
 
+/* ======================== new-value =================== */
+
+.new-value__inner {
+  /* padding: 30px 0px; */
+}
+
+.new-value__title {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.new-value__title-img {
+  max-width: 65px;
+  margin-left: 4px;
+}
+
 /* =================Адаптив================ */
 
 @media screen and (max-width: 1200px) {

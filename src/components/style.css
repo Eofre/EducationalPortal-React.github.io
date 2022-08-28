@@ -411,6 +411,40 @@
   color: rgba(255, 255, 255, 0.932);
 }
 
+/* ==================== New Value Card ================= */
+
+.new-value-card {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #2e2e2e;
+  height: 150px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.new-value-card + .new-value-card {
+  margin-top: 40px;
+}
+
+.new-value-card:hover {
+  box-shadow: 0px 0px 25px #ff158b;
+  outline: #ff158b 4px solid;
+  transform: scale3d(1.07, 1.07, 1.07);
+}
+
+.new-value-card__img {
+  height: 140px;
+}
+
+.new-value-card__body {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
 /* =================Адаптив================ */
 
 @media screen and (max-width: 1200px) {
