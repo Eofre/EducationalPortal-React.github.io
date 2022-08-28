@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/EducationalPortal-React.github.io/static/css/main.252efb2a.css",
-    "main.js": "/EducationalPortal-React.github.io/static/js/main.3434c4df.js",
+    "main.css": "/EducationalPortal-React.github.io/static/css/main.8ff297a6.css",
+    "main.js": "/EducationalPortal-React.github.io/static/js/main.fc992b6b.js",
     "static/js/787.0c3f432a.chunk.js": "/EducationalPortal-React.github.io/static/js/787.0c3f432a.chunk.js",
-    "static/media/test1.jpg": "/EducationalPortal-React.github.io/static/media/test1.b4872d60c5cf670661f5.jpg",
     "static/media/article3.jpg": "/EducationalPortal-React.github.io/static/media/article3.fc117dba344211091403.jpg",
     "static/media/article1.jpg": "/EducationalPortal-React.github.io/static/media/article1.c64af48be0c386341674.jpg",
     "static/media/test3.jpg": "/EducationalPortal-React.github.io/static/media/test3.4e193afea231043bcb22.jpg",
     "static/media/test2.jpg": "/EducationalPortal-React.github.io/static/media/test2.277e151caf2493302859.jpg",
     "static/media/article2.jpg": "/EducationalPortal-React.github.io/static/media/article2.bd08d79870653a67dd11.jpg",
+    "static/media/test.png": "/EducationalPortal-React.github.io/static/media/test.4ff6ca1a593e377e7acf.png",
     "static/media/result.png": "/EducationalPortal-React.github.io/static/media/result.6d85aa6c0bb109bde55e.png",
+    "static/media/test1.jpg": "/EducationalPortal-React.github.io/static/media/test1.99973ff7e626a1729bf3.jpg",
     "static/media/title2.png": "/EducationalPortal-React.github.io/static/media/title2.bfe506fbc038b0a8466c.png",
+    "static/media/new-value.png": "/EducationalPortal-React.github.io/static/media/new-value.c329b967a35a1d175485.png",
+    "static/media/article.png": "/EducationalPortal-React.github.io/static/media/article.6381a1f5fccd0927e534.png",
     "static/media/book.png": "/EducationalPortal-React.github.io/static/media/book.de95b09168e1e8901e45.png",
     "static/media/title1.png": "/EducationalPortal-React.github.io/static/media/title1.4ea6e4b29955f9c45d41.png",
     "index.html": "/EducationalPortal-React.github.io/index.html",
     "static/media/like.svg": "/EducationalPortal-React.github.io/static/media/like.a4dac25f2610f714939b4875feb35799.svg",
     "static/media/right-arrow.svg": "/EducationalPortal-React.github.io/static/media/right-arrow.a0fecff6fb780e8a7d9bdd503f237cc1.svg",
-    "main.252efb2a.css.map": "/EducationalPortal-React.github.io/static/css/main.252efb2a.css.map",
-    "main.3434c4df.js.map": "/EducationalPortal-React.github.io/static/js/main.3434c4df.js.map",
+    "main.8ff297a6.css.map": "/EducationalPortal-React.github.io/static/css/main.8ff297a6.css.map",
+    "main.fc992b6b.js.map": "/EducationalPortal-React.github.io/static/js/main.fc992b6b.js.map",
     "787.0c3f432a.chunk.js.map": "/EducationalPortal-React.github.io/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.252efb2a.css",
-    "static/js/main.3434c4df.js"
+    "static/css/main.8ff297a6.css",
+    "static/js/main.fc992b6b.js"
   ]
 }
