@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-import logo from "./img/diploma.png";
+// import logo from "./img/diploma.png";
+import logo from "./img/book.png";
 import Navigation from "./Navigation";
 import { Link } from "react-router-dom";
 
@@ -15,7 +16,7 @@ function Header() {
             </Link>
             <img src={logo} alt="" className="header__logo-img" />
           </div>
-          {/* <Navigation /> */}
+          <Navigation />
         </div>
       </div>
     </header>

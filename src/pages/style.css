@@ -1,19 +1,64 @@
-.home {
-  padding: 20px 0px;
-}
-
 .home__title {
   display: flex;
   align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .home__title-img {
-  max-width: 30px;
+  max-width: 68px;
+  margin-left: 4px;
 }
 
 .home__tests {
   padding: 40px 0px;
   display: flex;
+}
+
+.home__articles {
+  padding: 40px 0px;
+  display: flex;
+}
+
+/* ==================== new test ==================== */
+
+.new-test__editor {
+  margin-top: 15px;
+}
+
+.new-test__editor-form {
+}
+
+.new-test__editor-info {
+  background-color: #222222;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.new-test__editor-questions {
+  margin-top: 25px;
+  background-color: #222222;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.new-test__editor-input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+.new-test__editor-text {
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.new-test__editor-questions {
 }
 
 /* =================Адаптив================ */

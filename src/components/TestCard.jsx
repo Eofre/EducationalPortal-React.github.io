@@ -16,8 +16,11 @@ function TestCard({ test }) {
       className="test"
     >
       <img src={img} alt="" className="test__img" />
-      <h3 className="test__title">{title}</h3>
-      <p className="test__description">{description}</p>
+      <div className="test__body">
+        <h3 className="test__title">{title}</h3>
+        <p className="test__description">{description}</p>
+      </div>
+
       <div className="test__reactions">
         <img src={like} alt="" className="test__reactions-like" />
         {likes}
