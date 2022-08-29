@@ -18,9 +18,7 @@ function TestResult() {
   console.log(questions);
   let likes = location.state.likes;
   console.log(likes);
-  function putLikes() {
-    return likes++;
-  }
+
   const scores = Math.floor((currectAnswers / numberQuestions) * 100);
   let mark =
     scores >= 90
@@ -42,6 +40,14 @@ function TestResult() {
           </p>
           <p className="test-result__scores">Ваши баллы: {scores} из 100</p>
           <p className="test-result__mark">Ваша оценка: {mark}</p>
+          {/* <div className="test-result__reaction">
+            <img
+              onClick={() => putLikes(testId)}
+              src={like}
+              className="test-result__like"
+            ></img>
+            {test.likes}
+          </div> */}
           <button onClick={() => router(-2)} className="test-result__btn">
             Начать заново
           </button>
@@ -86,7 +92,6 @@ function TestResult() {
                     Не верно
                   </p>
                 )}
-
                 {item.answers.map((answer, index) =>
                   index === item.currectAnswer ? (
                     <p

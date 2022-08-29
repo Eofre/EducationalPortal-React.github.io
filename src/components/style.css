@@ -1,7 +1,7 @@
 .test {
   padding-bottom: 10px;
   border-radius: 20px;
-  width: 420px;
+  width: 388px;
   background-color: #2e2e2e;
   display: flex;
   flex-direction: column;
@@ -10,6 +10,7 @@
   font-size: 16px;
   transition: all 0.3s ease;
   text-align: center;
+  margin: 13px 9px;
 }
 
 .test__title {
@@ -18,9 +19,9 @@
   padding: 15px 10px;
 }
 
-.test + .test {
+/* .test + .test {
   margin-left: 10px;
-}
+} */
 .test:hover {
   box-shadow: 0px 0px 25px #ff158b;
   outline: #ff158b 4px solid;
@@ -29,7 +30,7 @@
 
 .test__img {
   width: 100%;
-  height: 235px;
+  height: 240px;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -249,6 +250,17 @@
   margin-top: 7px;
 }
 
+.test-result__reaction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.test-result__like {
+  max-width: 35px;
+  cursor: pointer;
+}
+
 /* ============ Test home ============== */
 
 .test-home__inner {
@@ -322,7 +334,7 @@
 .article-card {
   padding-bottom: 10px;
   border-radius: 20px;
-  width: 420px;
+  width: 388px;
   background-color: #2e2e2e;
   display: flex;
   flex-direction: column;
@@ -331,10 +343,7 @@
   font-size: 16px;
   transition: all 0.3s ease;
   text-align: center;
-}
-
-.article-card + .article-card {
-  margin-left: 10px;
+  margin: 13px 9px;
 }
 
 .article-card__img {
@@ -397,9 +406,8 @@
 
 .article__img {
   width: 100%;
-
-  border-radius: 15px;
-  margin-top: 20px;
+  height: 240px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .article__paragraphs {
@@ -417,7 +425,7 @@
   padding: 10px;
   border-radius: 10px;
   background-color: #2e2e2e;
-  height: 150px;
+  height: 175px;
   display: flex;
   align-content: center;
   align-items: center;
@@ -426,7 +434,7 @@
 }
 
 .new-value-card + .new-value-card {
-  margin-top: 22px;
+  margin-top: 25px;
 }
 
 .new-value-card:hover {
@@ -436,7 +444,7 @@
 }
 
 .new-value-card__img {
-  height: 140px;
+  height: 160px;
 }
 
 .new-value-card__body {

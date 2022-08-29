@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
-// import logo from "./img/diploma.png";
-import logo from "./img/book.png";
+import logo from "./img/logo.png";
 import Navigation from "./Navigation";
 import { Link } from "react-router-dom";
 
