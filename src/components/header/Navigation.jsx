@@ -12,6 +12,9 @@ function Navigation() {
           <Link to="/tests" className="navigation__link">
             Тесты
           </Link>
+          <Link to="/abs" className="navigation__link">
+            Статьи
+          </Link>
           <Link to="/newvalue" className="navigation__link">
             Создать
           </Link>
